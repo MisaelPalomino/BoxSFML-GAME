@@ -1,0 +1,2 @@
+g++ -IC:\SFML-2.6.1\include -c main.cpp -o test.o
+g++ -LC:\SFML-2.6.1\lib test.o -o app.exe -lsfml-graphics -lsfml-window -lsfml-system -mconsole
